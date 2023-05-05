@@ -13,7 +13,7 @@ function settime(){
     var min=date.getMinutes()
     var sec=date.getSeconds()
     var opt=document.getElementById("select").value
-if(opt=="12"){
+if(opt=="12"){                                      // for 12 hours format
     if(hour<10){
         hour='0'+hour
         hr.textContent=hour
@@ -39,7 +39,7 @@ if(opt=="12"){
         se.textContent=sec
     }
 }
-else{
+else{                                      // for 24 hours format
 
     if(hour<10){
         hour='0'+hour
