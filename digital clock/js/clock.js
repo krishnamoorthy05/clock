@@ -1,4 +1,5 @@
 
+
 setInterval(settime,1000)
 var hr=document.getElementById("hr")
 var mi=document.getElementById("min")
